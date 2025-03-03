@@ -60,12 +60,12 @@ plugins:
 author:
   name   : "aranyaadheu"
   avatar : "/assets/images/helmet.jpg"
-  bio    : "madlad in solitude. Interested in AI/ ML"
+  bio    : "madlad in solitude."
   links:
     - label: "Linkedin"
       icon: "fa-brands fa-linkedin"
       url: "https://linkedin.com/in/aranyaadheu"
-    - label: "X"
+    - label: "Twitter"
       icon: "fa-brands fa-x-twitter"
       url: "https://x.com/aranyaadheu"
     - label: "GitHub"

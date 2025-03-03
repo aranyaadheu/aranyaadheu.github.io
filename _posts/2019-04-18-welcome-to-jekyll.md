@@ -1,29 +1,105 @@
 ---
-title: "Welcome to Jekyll!"
-date: 2019-04-18T15:34:30-04:00
+title: "Chess in details."
+date: 2025-03-02
 categories:
   - blog
 tags:
-  - Jekyll
-  - update
+  - Chess
+  - skills
 ---
+১. নিয়ম শিখুন এবং ভালোভাবে বোঝার চেষ্টা করুন
 
-You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+পিসগুলোর চলন বুঝুন: বোর্ডে প্রতিটি পিসের (প্যাদন, নাইট, বিশপ, রুক, কুইন, কিং) চলাচল ভালোভাবে শিখুন।
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+পিসগুলোর চলন বুঝুন: বোর্ডে প্রতিটি পিসের (প্যাদন, নাইট, বিশপ, রুক, কুইন, কিং) চলাচল ভালোভাবে শিখুন।
+বিশেষ নিয়ম শিখুন: কাস্টলিং, এন পাসাঁ, প্রোমোশন ইত্যাদি বিষয়গুলোতে দক্ষ হন।
 
-Jekyll also offers powerful support for code snippets:
+বিশেষ নিয়ম শিখুন: কাস্টলিং, এন পাসাঁ, প্রোমোশন ইত্যাদি বিষয়গুলোতে দক্ষ হন।
+২. ওপেনিং শেখা শুরু করুন
 
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
+সাধারণ কিছু ওপেনিং চাল (যেমন: ই4, ডি4) এবং প্রতিপক্ষের উত্তরে কীভাবে এগোবেন তা অনুশীলন করুন।
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+সাধারণ কিছু ওপেনিং চাল (যেমন: ই4, ডি4) এবং প্রতিপক্ষের উত্তরে কীভাবে এগোবেন তা অনুশীলন করুন।
+ওপেনিং প্রিন্সিপল মেনে চলুন:সেন্টার কন্ট্রোল করুন।পিসগুলো দ্রুত ডেভেলপ করুন।কিংকে নিরাপদে কাস্টল করুন।
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+ওপেনিং প্রিন্সিপল মেনে চলুন:সেন্টার কন্ট্রোল করুন।পিসগুলো দ্রুত ডেভেলপ করুন।কিংকে নিরাপদে কাস্টল করুন।
+৩. প্রতিদিন পাজল সমাধান করুন
+
+ট্যাকটিক্স পাজল (যেমন: চেকমেট ইন ওয়ান/টু, পিন, ফর্ক) সমাধান করে আপনার কৌশলগত দক্ষতা বাড়ান।
+
+ট্যাকটিক্স পাজল (যেমন: চেকমেট ইন ওয়ান/টু, পিন, ফর্ক) সমাধান করে আপনার কৌশলগত দক্ষতা বাড়ান।
+বিভিন্ন চেস অ্যাপ বা ওয়েবসাইট (যেমন Lichess, Chess.com) ব্যবহার করতে পারেন।
+
+বিভিন্ন চেস অ্যাপ বা ওয়েবসাইট (যেমন Lichess, Chess.com) ব্যবহার করতে পারেন।
+৪. গেম বিশ্লেষণ করুন
+
+আপনার খেলা গেমগুলো রিভিউ করুন। ভুলগুলো চিনতে এবং সেগুলো সংশোধন করতে চেষ্টা করুন।
+
+আপনার খেলা গেমগুলো রিভিউ করুন। ভুলগুলো চিনতে এবং সেগুলো সংশোধন করতে চেষ্টা করুন।
+শক্তিশালী খেলোয়াড়দের সাথে গেম নিয়ে আলোচনা করুন।
+
+শক্তিশালী খেলোয়াড়দের সাথে গেম নিয়ে আলোচনা করুন।
+৫. প্র্যাকটিস করুন
+
+নিয়মিত অনলাইনে বা অফলাইনে খেলুন।
+
+নিয়মিত অনলাইনে বা অফলাইনে খেলুন।
+আপনার প্রতিপক্ষের স্তর একটু কঠিন হওয়ার চেষ্টা করুন যাতে আপনি নতুন চ্যালেঞ্জ পান।
+
+আপনার প্রতিপক্ষের স্তর একটু কঠিন হওয়ার চেষ্টা করুন যাতে আপনি নতুন চ্যালেঞ্জ পান।
+৬. বিখ্যাত গেম পড়ুন ও বিশ্লেষণ করুন
+
+বোবি ফিশার, গ্যারি কাসপারভ, ম্যাগনাস কার্লসেনের গেমগুলো দেখে শেখার চেষ্টা করুন।
+
+বোবি ফিশার, গ্যারি কাসপারভ, ম্যাগনাস কার্লসেনের গেমগুলো দেখে শেখার চেষ্টা করুন।
+কেন তারা নির্দিষ্ট মুহূর্তে নির্দিষ্ট চালটি করেছেন, তা বোঝার চেষ্টা করুন।
+
+কেন তারা নির্দিষ্ট মুহূর্তে নির্দিষ্ট চালটি করেছেন, তা বোঝার চেষ্টা করুন।
+৭. ব্লাইন্ডফোল্ড চেস অনুশীলন করুন
+
+বোর্ড ছাড়াই মনে মনে গেম খেলার চেষ্টা করুন। এতে বোর্ড ভিজ্যুয়ালাইজ করার ক্ষমতা বাড়বে।
+
+বোর্ড ছাড়াই মনে মনে গেম খেলার চেষ্টা করুন। এতে বোর্ড ভিজ্যুয়ালাইজ করার ক্ষমতা বাড়বে।
+৮. নিজেকে পরিকল্পিত চ্যালেঞ্জ দিন
+
+একটি নির্দিষ্ট লক্ষ্য রাখুন (যেমন: ১০০০ রেটিং অর্জন করা)।
+
+একটি নির্দিষ্ট লক্ষ্য রাখুন (যেমন: ১০০০ রেটিং অর্জন করা)।
+দিনের একটি নির্দিষ্ট সময় চেস অনুশীলনের জন্য বরাদ্দ করুন।
+
+দিনের একটি নির্দিষ্ট সময় চেস অনুশীলনের জন্য বরাদ্দ করুন।
+৯. শক্তিশালী খেলোয়াড়দের সাথে খেলুন
+
+আপনার চেয়ে ভালো খেলোয়াড়দের সাথে খেললে আপনার স্কিল দ্রুত বাড়বে।
+
+আপনার চেয়ে ভালো খেলোয়াড়দের সাথে খেললে আপনার স্কিল দ্রুত বাড়বে।
+পরাজয় থেকে ভয় পাবেন না। বরং ভুলগুলো শিখুন।
+
+পরাজয় থেকে ভয় পাবেন না। বরং ভুলগুলো শিখুন।
+১০. ধৈর্য ধরুন এবং মজা করুন
+
+চেস শেখা একটি দীর্ঘ প্রক্রিয়া। তাড়াহুড়ো না করে ধৈর্যের সাথে শিখুন।
+
+চেস শেখা একটি দীর্ঘ প্রক্রিয়া। তাড়াহুড়ো না করে ধৈর্যের সাথে শিখুন।
+খেলাটি উপভোগ করুন।
+
+খেলাটি উপভোগ করুন।
+# You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+# To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+# Jekyll also offers powerful support for code snippets:
+
+# ```ruby
+# def print_hi(name)
+#  puts "Hi, #{name}"
+# end
+# print_hi('Tom')
+# #=> prints 'Hi, Tom' to STDOUT.
+# ```
+
+# Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+# [jekyll-docs]: https://jekyllrb.com/docs/home
+# [jekyll-gh]:   https://github.com/jekyll/jekyll
+# [jekyll-talk]: https://talk.jekyllrb.com/

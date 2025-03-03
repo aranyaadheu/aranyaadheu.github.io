@@ -7,7 +7,7 @@ tags:
   - Chess
   - skills
 ---
-![3 people playing chess](gm.jpg)
+![3 people playing chess](/assets/images/gm.jpg)
 ## **১. নিয়ম শিখুন এবং ভালোভাবে বোঝার চেষ্টা করুন**
 
 **পিসগুলোর চলন বুঝুন:** বোর্ডে প্রতিটি পিসের (প্যাদন, নাইট, বিশপ, রুক, কুইন, কিং) চলাচল ভালোভাবে শিখুন।

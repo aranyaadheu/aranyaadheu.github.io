@@ -49,13 +49,16 @@ export default function AboutPage() {
         </motion.h2>
         <motion.ul className="list-none p-0 mb-6 sm:mb-8 space-y-2 font-pitch text-sm sm:text-base" variants={stagger}>
           <motion.li className="flex items-center" variants={fadeInUp}>
-            <span className="mr-2">🧠</span> Data Wrangling with pandas, NumPy & Jupyter
+            <span className="mr-2">📊</span> Data Wrangling with pandas, NumPy & Jupyter
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
-            <span className="mr-2">♟️</span> Chess Analysis
+            <span className="mr-2">🧠</span> Large Language Models (LLMs)
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
-            <span className="mr-2">💻</span> AI/ML & Data Science
+            <span className="mr-2">💻</span> AI/ ML & Data Science 
+          </motion.li>
+          <motion.li className="flex items-center" variants={fadeInUp}>
+            <span className="mr-2">♟️</span> Chess Analysis 
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
             <span className="mr-2">🧩</span> Problem Solving

@@ -17,7 +17,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: 'aranyaadheu',
-  description: "aranyaadheu's blog",
+  description: "madlad in solitude",
   icons: {
     icon: '/favicon.ico',
     apple: '/favicon/apple-icon-180x180.png',

@@ -1,0 +1,103 @@
+---
+title: 'Interactive Components in MDX'
+date: '2023-07-22'
+excerpt: 'Learn how to use custom React components within your MDX blog posts to create interactive and engaging content.'
+tags: ['mdx', 'react', 'components', 'tutorial']
+coverImage: '/images/blog/interactive.jpg'
+---
+
+# Interactive Components in MDX
+
+One of the most powerful features of MDX is the ability to include interactive React components directly in your content. This creates opportunities for more engaging and dynamic blog posts that go beyond static text and images.
+
+## Using the Info Component
+
+<Info>
+  This is an info box that highlights important information. It's a custom component that can be used in any MDX file.
+</Info>
+
+The Info component is perfect for highlighting important information, tips, or warnings within your blog posts. It provides visual distinction from the rest of your content.
+
+## Interactive Counter
+
+Below is an interactive counter component. Feel free to click the buttons to see it in action:
+
+<Counter initialCount={5} />
+
+This counter component demonstrates how MDX allows you to embed fully interactive React components within your markdown content. Readers can engage with this component without leaving the page.
+
+## Sharing Code Samples
+
+You can also include code samples with syntax highlighting:
+
+<CodeSample language="typescript" filename="components/Counter.tsx">
+import { useState } from 'react';
+
+interface CounterProps {
+  initialCount?: number;
+}
+
+export function Counter({ initialCount = 0 }: CounterProps) {
+  const [count, setCount] = useState(initialCount);
+  
+  return (
+    <div className="border rounded-md p-4 bg-gray-50 dark:bg-gray-800">
+      <h3 className="text-lg font-medium mb-2">Interactive Counter</h3>
+      <p className="text-2xl font-bold text-center mb-4">{count}</p>
+      <div className="flex justify-center gap-2">
+        <button 
+          onClick={() => setCount(count - 1)}
+          className="px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600"
+        >
+          Decrease
+        </button>
+        <button 
+          onClick={() => setCount(initialCount)}
+          className="px-3 py-1 bg-gray-500 text-white rounded hover:bg-gray-600"
+        >
+          Reset
+        </button>
+        <button 
+          onClick={() => setCount(count + 1)}
+          className="px-3 py-1 bg-green-500 text-white rounded hover:bg-green-600"
+        >
+          Increase
+        </button>
+      </div>
+    </div>
+  );
+}
+</CodeSample>
+
+The CodeSample component makes it easy to share code with your readers, complete with syntax highlighting and a copy button for convenience.
+
+## Combining Components
+
+You can even combine components in creative ways:
+
+<div className="border p-4 rounded-md shadow-sm mb-4">
+  <h3 className="text-xl font-semibold mb-2">Component Showcase</h3>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <Counter initialCount={10} />
+    <div>
+      <Info>
+        Try clicking the buttons on the counter to see it change!
+      </Info>
+    </div>
+  </div>
+</div>
+
+## Regular Markdown Still Works
+
+Of course, all the regular markdown features still work as expected:
+
+- **Bold text** for emphasis
+- *Italic text* for slight emphasis
+- [Links to other resources](https://nextjs.org)
+- And more!
+
+## Conclusion
+
+Using MDX with custom components gives you the best of both worlds - the simplicity of markdown for content authoring combined with the power and flexibility of React components.
+
+This enables you to create more engaging, interactive, and visually appealing blog posts that stand out from traditional static content. 

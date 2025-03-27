@@ -87,11 +87,15 @@ b {
 
 .prose code {
   color: inherit;
-  background-color: rgb(26, 32, 44);
+  background-color: rgba(0, 0, 0, 0.07);
   padding: 0.2em 0.4em;
   border-radius: 0.25em;
   font-size: 0.875em;
   font-family: 'JetBrains Mono', monospace;
+}
+
+.dark .prose code {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 @layer base {

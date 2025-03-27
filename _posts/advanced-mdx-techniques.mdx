@@ -1,0 +1,121 @@
+---
+title: 'Advanced MDX Techniques for Your Blog'
+date: '2023-08-01'
+excerpt: 'Explore advanced MDX features to create rich, interactive content that engages your readers.'
+tags: ['mdx', 'react', 'advanced', 'tutorial']
+coverImage: '/images/blog/advanced-mdx.jpg'
+---
+
+# Advanced MDX Techniques for Your Blog
+
+MDX provides powerful capabilities for creating interactive and engaging content. In this post, we'll explore some advanced techniques to take your MDX blog posts to the next level.
+
+## Creating Layout Components
+
+MDX allows you to create custom layout components that can dramatically change how your content is presented:
+
+<div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+  <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+    <h3 className="text-lg font-medium mb-2">Left Column</h3>
+    <p>This is the left column content. You can put any content here.</p>
+    <Counter initialCount={3} />
+  </div>
+  <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+    <h3 className="text-lg font-medium mb-2">Right Column</h3>
+    <p>This is the right column content. You can create multi-column layouts easily.</p>
+    <Info>
+      You can nest components within layout components!
+    </Info>
+  </div>
+</div>
+
+## Conditional Rendering
+
+You can use JavaScript expressions to conditionally render content:
+
+{true && (
+  <div className="bg-green-50 dark:bg-green-900 p-4 rounded-lg mb-6">
+    <p className="text-green-800 dark:text-green-100">This content is conditionally rendered.</p>
+  </div>
+)}
+
+## Advanced Code Examples
+
+The `CodeSample` component can be used to display code with syntax highlighting and filename:
+
+<CodeSample language="javascript" filename="advanced-example.js">
+const calculateFactorial = (n) => {
+  if (n <= 1) return 1;
+  return n * calculateFactorial(n - 1);
+};
+
+// Using the factorial function
+const result = calculateFactorial(5);
+console.log(`Factorial of 5 is ${result}`);
+
+// Output: Factorial of 5 is 120
+</CodeSample>
+
+## Creating Interactive Demos
+
+Combine components to create interactive demos:
+
+<div className="border rounded-md p-6 mb-6 bg-gray-50 dark:bg-gray-800">
+  <h3 className="text-xl font-bold mb-4">Interactive Counter Demo</h3>
+  <p className="mb-4">
+    Click the buttons below to interact with the counter. 
+    This demonstrates how MDX allows you to embed fully interactive components.
+  </p>
+  <Counter initialCount={10} />
+  <div className="mt-4">
+    <Info>
+      This counter state is managed by React hooks. Try refreshing the page to see it reset.
+    </Info>
+  </div>
+</div>
+
+## Embedding External Content
+
+You can embed external content like tweets, videos, or other media by creating wrapper components.
+
+<div className="border rounded-md p-4 bg-blue-50 dark:bg-blue-900 mb-6">
+  <h4 className="font-medium text-blue-800 dark:text-blue-100">Simulated Tweet Embed</h4>
+  <div className="p-4 bg-white dark:bg-gray-800 rounded-md mt-2">
+    <div className="flex items-center mb-2">
+      <div className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-full mr-4"></div>
+      <div>
+        <p className="font-bold">User Name</p>
+        <p className="text-gray-500 text-sm">@username</p>
+      </div>
+    </div>
+    <p className="mb-2">This is a simulated tweet embed. In a real application, you would create a Tweet component that fetches and displays actual tweets.</p>
+    <p className="text-blue-500 text-sm">2:30 PM · Aug 1, 2023</p>
+  </div>
+</div>
+
+## Using JavaScript Variables and Functions
+
+You can define and use JavaScript variables and functions directly in your MDX:
+
+export const currentDate = new Date().toLocaleDateString();
+
+<p>This blog post was last updated on: **{currentDate}**</p>
+
+export const add = (a, b) => a + b;
+
+<p>The sum of 5 + 10 is: **{add(5, 10)}**</p>
+
+## Nesting Components Within Markdown
+
+One of the most powerful features is the ability to seamlessly mix components with regular markdown:
+
+- Regular bullet point
+- Another bullet point with **bold text**
+- <Info>A bullet point with a nested component</Info>
+- Final bullet point
+
+## Conclusion
+
+These advanced MDX techniques allow you to create rich, interactive content that goes far beyond what's possible with traditional markdown. By leveraging the power of React components within your blog posts, you can create more engaging and interactive experiences for your readers.
+
+Try incorporating some of these techniques into your own MDX blog posts to see how they can enhance your content! 

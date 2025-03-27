@@ -1,4 +1,5 @@
 import './styles/globals.css';
+import './styles/prism-custom.css';
 import '@fontsource/inter/400.css';
 import '@fontsource/inter/500.css';
 import '@fontsource/inter/600.css';

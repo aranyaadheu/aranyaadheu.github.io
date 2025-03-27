@@ -1,0 +1,81 @@
+---
+title: 'Hello MDX - Interactive Blog Posts'
+date: '2023-06-15'
+excerpt: 'Discover how to use MDX to create interactive and dynamic blog posts with React components.'
+tags: ['mdx', 'react', 'interactive', 'nextjs']
+coverImage: '/images/hello-mdx.jpg'
+---
+
+import { Counter } from '@/components/Counter';
+import { CodeSample } from '@/components/CodeSample';
+
+# Interactive Blog Posts with MDX
+
+Welcome to my first MDX blog post! MDX allows you to **use React components directly in your markdown content**.
+
+## What is MDX?
+
+MDX is a format that combines Markdown with JSX. It allows you to use React components within your markdown content.
+
+<Info>
+  MDX makes your blog posts more interactive and engaging by allowing you to embed components directly in your content.
+</Info>
+
+## Interactive Components
+
+Here's an example of an interactive component - try clicking the buttons below:
+
+<Counter initialCount={5} />
+
+## Code Samples with Syntax Highlighting
+
+MDX also makes it easy to share code with syntax highlighting and other features:
+
+<CodeSample language="typescript" filename="examples/counter.tsx">
+{`import { useState } from 'react';
+
+export function Counter({ initialCount = 0 }) {
+  const [count, setCount] = useState(initialCount);
+  
+  return (
+    <div className="counter">
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count - 1)}>Decrease</button>
+      <button onClick={() => setCount(initialCount)}>Reset</button>
+      <button onClick={() => setCount(count + 1)}>Increase</button>
+    </div>
+  );
+}`}
+</CodeSample>
+
+## Regular Markdown Still Works
+
+You can still use all the regular markdown features:
+
+- **Bold text** and *italic text*
+- [Links to other sites](https://mdxjs.com/)
+- Lists like this one
+- And more!
+
+### Code Blocks
+
+```javascript
+// Regular code blocks work too
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+console.log(greet('MDX User'));
+```
+
+## Why Use MDX?
+
+1. **Interactive Components** - Add interactive elements to your posts
+2. **Reusable Components** - Create and reuse custom components
+3. **Dynamic Content** - Fetch and display data from APIs
+4. **Familiar Syntax** - Still use the Markdown you're familiar with
+5. **TypeScript Support** - Get type checking for your components
+
+## Conclusion
+
+MDX is a powerful tool for creating rich, interactive blog posts. It combines the simplicity of Markdown with the power of React components. Give it a try in your next blog post! 
